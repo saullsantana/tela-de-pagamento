@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <title></title>
+    <meta charset="utf-8" /> 
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Ubuntu & display = swap "rel =" stylesheet ">
+</head>
+
+<style type="text/css">
+
+    body{
+        background: #FFC1C1;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #container{
+        background: white;
+        width: 390px;
+        height: 700px;
+        border-radius: 15px ;
+        margin-right: auto;
+        margin-left: auto;    
+    }
+    
+    .capa{
+        width: 390px;        
+        height: 250px;
+        border-radius: 10px 10px 0px 0px;         
+    }
+    
+    h2{
+        font-size: 25px;
+        text-align: center;
+        color: black;
+    }
+    
+    p{
+        font-weight: arial;
+        text-align: center;
+        font-size: 15px;
+        padding-left: auto;
+        padding-right: auto;
+        opacity:0.5;
+    }
+    
+    #box{
+        background: #E8E8E8;
+        height: 90px;
+        margin-left: 10px;
+        margin-right: 10px;  
+        margin-top: 10px;     
+    }
+    
+    .icone{
+        width: 40px;
+        position: relative;
+        left: 20px;
+        top: 25px;
+    }
+    
+    h3{ 
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 80px;
+        top: -50px;
+    }
+    
+    .preco{
+        color: black;
+        font-size: 15px;
+        font-weight: arial;
+        position: relative;
+        left: -40px;
+        top: -55px;
+    }
+    
+    a{
+        color: black;
+        font-size: 15px;
+        position: absolute;
+        left: 300px;
+        top: 450px;
+        cursor: pointer;          
+    }
+    
+    .concluir{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background: #CDB7B5;
+        width: 340px;
+        height: 50px;
+        border:none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    
+    .cancel{
+        display: block;
+        width: 340px;
+        height: 50px;
+        border:none;
+        color: #CDB75;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        background: white;
+    }
+    
+    button:active{
+        opacity: 0.6;    
+    }
+ 
+</style>
+
+<body>
+
+    <div id="container">
+        <img class="capa" src="images.png">
+        <h2>Order Summary</h2>
+        <p>Agora você pode ouvir milhões de músicas, audiolivros e podcasts em qualquer dispositivo de onde quiser!</p>
+        
+        <div id="box">
+            <img class="icone"  src="Ícone.png">
+            <h3>Plano Anual</h3>
+            <p class="preco">R$55,99/ano</p>
+            <a>Alterar</a>
+        </div>
+        
+        <button class="concluir">Continuar o Pagamento</button>
+        <button class="cancel">cancelar</button>
+    </div>
+
+</body>
+
+</html>
